@@ -1,3 +1,25 @@
 body {
-  background-color: dodgerblue;
+  background-color: whitesmoke;
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+  text-align: center;
+}
+
+p {
+  text-indent: 20px;
+}
+
+h1 {
+  color: salmon;
+}
+
+h2 {
+  font-style: italic;
+}
+
+h4 {
+  color: lightpink;
 }
