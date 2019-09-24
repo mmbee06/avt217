@@ -1,0 +1,33 @@
+#container {
+  width: 800px;
+  margin: 50px auto;
+}
+
+.header {
+  height: 100px;
+  background-color: crimson;
+  margin-bottom: 10px;
+}
+
+.nav {
+  height: 50px;
+  background-color: crimson;
+  margin-bottom: 10px;
+}
+
+.column {
+  width: 260px;
+  height: 1000px;
+  background-color: crimson;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.margin-right {
+  margin-right: 10px;
+}
+
+.footer {
+  height: 100px;
+  background-color: crimson;
+}
