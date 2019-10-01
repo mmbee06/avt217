@@ -31,3 +31,9 @@
   float: left;
   margin-left: 10px;
 }
+
+.content {
+  width: 1000px;
+  height: 600px;
+  float: left;
+}

@@ -3,7 +3,11 @@ body {
   text-align: center;
   font-family: trebuchet ms;
   font-size: 14px;
-  padding-left: 1.0em;
+  padding-top: 50px;
+}
+
+::selection {
+  color: lightsalmon;
 }
 
 h1 {
@@ -15,18 +19,17 @@ h2 {
   font-color: #E5CB00;
 }
 
-img {
-  max-width: 100%;
-  text-align: center;
-}
-
-a {
+a.class1 {
   color: salmon;
   -o-transition: .5s;
   -ms-transition: .5s;
   -moz-transition: .5s;
   -webkit-transition: .5s;
   transition: .5s;
+}
+
+a.class2 {
+  color: red;
 }
 
 a:hover {

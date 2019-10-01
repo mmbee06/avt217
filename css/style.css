@@ -2,7 +2,12 @@ body {
   background-color: aliceblue;
   text-align: left;
   font-family: georgia;
-  padding-left: 1.0em;
+  padding-left: 4.0em;
+  margin: 50px auto;
+}
+
+::selection {
+  color: #D49CFF;
 }
 
 img {
@@ -16,7 +21,7 @@ p {
 }
 
 h1 {
-  color: salmon;
+  color: #D8C6E5;
 }
 
 h2 {
@@ -25,4 +30,13 @@ h2 {
 
 h4 {
   color: lightsalmon;
+}
+
+a {
+  color: #BCACC8;
+}
+
+a:hover {
+  color: #D7D3DA;
+  transition: 0.5s;
 }
