@@ -1,0 +1,51 @@
+body {
+  background-color: #E5CBC6;
+  text-align: center;
+  font-family: trebuchet ms;
+  font-size: 14px;
+  padding-left: 1.0em;
+}
+
+h1 {
+  font-family: arial;
+}
+
+h2 {
+  font-style: italic;
+  font-color: #E5CB00;
+}
+
+img {
+  max-width: 100%;
+  text-align: center;
+}
+
+a {
+  color: salmon;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+a:hover {
+  color: red;
+}
+
+p {
+  text-indent: 20px;
+  line-height: 1.4em;
+}
+
+h1 {
+  color: salmon;
+}
+
+h2 {
+  font-style: italic;
+}
+
+h4 {
+  color: lightsalmon;
+}

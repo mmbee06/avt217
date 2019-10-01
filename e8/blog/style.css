@@ -1,0 +1,33 @@
+#panel {
+  width: 1000px;
+  margin: 50px auto;
+}
+
+.header {
+  height: 100px;
+  background-color: crimson;
+  margin-bottom: 10px;
+}
+
+.post {
+  width: 700px;
+  height: 500px;
+  background-color: crimson;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.credits {
+  background-color: crimson;
+  float: left;
+  width: 700px;
+  height: 50px;
+}
+
+.sidebar {
+  width: 290px;
+  height: 200px;
+  background-color: crimson;
+  float: left;
+  margin-left: 10px;
+}

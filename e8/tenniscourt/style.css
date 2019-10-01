@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  margin: 0;
+}
+
+#court {
+  background-color: green;
+  width: 600px;
+  height: 800px;
+  margin: 50px auto;
+}
+
+.center {
+  width: 400px;
+  float: left;
+}
+
+.side {
+  width: 100px;
+  height: 400px;
+}
+
+.back {
+  width: 400px;
+  height: 200px;
+}
+
+.middle {
+  width: 200px;
+  height: 200px;
+}
+
+.side, .back, .middle {
+  border: 5px solid white;
+  float: left;
+}
