@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  margin: 0;
+}
+
+#circuit {
+  width: 400px;
+  height: 600px;
+  background-color: crimson;
+  margin: 50px auto;
+}
+
+.block1 {
+  width: 100px;
+  height: 200px;
+}
+
+.top {
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+
+.align {
+  width: 100px;
+  height: 400px;
+  float: left;
+}
+
+.righted {
+  width: 300px;
+  height: 400px;
+  float: left;
+}
+
+.block2 {
+  width: 100px;
+  height: 400px;
+}
+
+.block3 {
+  width: 200px;
+  height: 400px;
+}
+
+.block4 {
+  width: 200px;
+  height: 100px;
+}
+
+.block5 {
+  width: 100px;
+  height: 100px;
+}
+
+.block1, .block2, .block3, .block4, .block5 {
+  border: 5px solid white;
+  float: left;
+}
