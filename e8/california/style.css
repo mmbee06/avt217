@@ -7,11 +7,24 @@ body {
   margin: 0;
 }
 
+#container {
+  width: 800px;
+  height: 1400px;
+  margin: 50px auto;
+}
+
 #circuit {
-  width: 400px;
+  width: 200px;
   height: 600px;
   background-color: crimson;
-  margin: 50px auto;
+  float: left;
+}
+
+#circuit2 {
+  width: 200px;
+  height: 400px;
+  background-color: crimson;
+  float: left;
 }
 
 .block1 {
@@ -57,7 +70,12 @@ body {
   height: 100px;
 }
 
-.block1, .block2, .block3, .block4, .block5 {
+.block6 {
+  width: 200px;
+  height: 600px;
+}
+
+.block1, .block2, .block3, .block4, .block5, .block6 {
   border: 5px solid white;
   float: left;
 }
