@@ -1,0 +1,64 @@
+/*** div styles ***/
+
+#container {
+  margin: 0;
+}
+
+.topbar {
+  width: 1000px;
+  height: 100px;
+  background-color: black;
+}
+
+.btri {
+  width: 0px;
+  height: 0px;
+  border-width: 0px 200px 600px 1000px;
+  border-color: transparent transparent transparent black;
+  border-style: solid;
+  float: left;
+}
+
+.title1 {
+  position: absolute;
+  transform: rotate(-31deg);
+  margin: 270px 0px 0px -800px;
+  color: white;
+}
+
+.title2 {
+  position: absolute;
+  transform: rotate(-31deg);
+  margin: 285px 0px 0px -750px;
+  color: black;
+}
+
+.title3 {
+  position: absolute;
+  transform: rotate(-31deg);
+  margin: 310px 0px 0px -700px;
+  color: red;
+}
+
+.author {
+  position: absolute;
+  transform: rotate(-31deg);
+  margin: 310px 0px 0px -700px;
+  color: black;
+}
+
+/*** text styles ***/
+
+h1 {
+  font-family: kepler-std-semicondensed-dis, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 72px;
+}
+
+h2 {
+  font-family: kepler-std-semicondensed-dis, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+}

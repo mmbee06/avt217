@@ -1,0 +1,70 @@
+/*** div styles ***/
+
+#lefthand {
+  width: 300px;
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.narrow {
+  width: 250px;
+  height: 50px;
+  text-align: right;
+}
+
+.chapter {
+  margin-left: 300px;
+  width: 300px;
+  text-align: center;
+}
+
+.text {
+  margin-left: 300px;
+  width: 500px;
+}
+
+/*** text styles ***/
+
+h1 {
+  font-family: fira-sans, sans-serif;
+  font-size: 72px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 0.05;
+}
+
+h2 {
+  font-family: fira-sans, sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h3 {
+  font-family: fira-sans, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: lowercase;
+  margin: 390px 0 0 0;
+  font-size: 48px;
+}
+
+h4 {
+  font-family: fira-sans, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: lowercase;
+  font-size: 40px;
+}
+
+ p {
+   font-family: fira-sans, sans-serif;
+   font-size: 20px;
+   font-style: normal;
+   line-height: 1.5;
+   margin: 0;
+   text-indent: 20px;
+ }
