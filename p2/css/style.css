@@ -1,3 +1,52 @@
+#panel {
+  width: 1000px;
+  margin: 50px auto;
+}
+
+.header {
+  height: 100px;
+  background-color: blue;
+  margin-bottom: 10px;
+}
+
 img {
-  max-width: 500px;
+  width: 500px;
+  height: 500px;
+}
+
+.pic {
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.post {
+  width: 500px;
+  height: 500px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.credits {
+  background-color: blue;
+  float: left;
+  width: 1000px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.divider {
+  background-color: blue;
+  float: left;
+  width: 1000px;
+  height: 10px;
+  margin-bottom: 10px;
+}
+
+.content {
+  width: 1000px;
+  height: 600px;
+  float: left;
 }
