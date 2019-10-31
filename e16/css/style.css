@@ -1,24 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: black;
+  margin: 0;
+  background-image: linear-gradient(purple, black);
 }
 
 #container {
+  width: 1300px;
+  height: 1000px;
+}
 
+.sky {
+  width: 1000px;
+  margin: 50px auto;
 }
 
 .moon {
-  height: 300px;
-  width: 300px;
-  position: absolute;
+  height: 250px;
+  width: 250px;
   background-color: yellow;
   border-radius: 50%;
-  display: inline-block;
+  position: absolute;
+  margin-left: 50%;
+}
+
+.star {
+  height: 5px;
+  width: 5px;
+  background-color: white;
+  border-radius: 50%;
+  float: left;
+  margin: 50px;
 }
 
 .tombstone {
-  margin-left: 30%;
-  width: 80px;
+  margin-right: 10px;
+  width: 100px;
   height: 160px;
   background: gray;
   border-radius: 30%;
+  float: left;
 }
