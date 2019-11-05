@@ -1,44 +1,17 @@
 body {
-  background-color: whitesmoke;
+  background-color: white;
   margin: 0;
-  display: block;
 }
 
 #container {
-  width: 50%;
-  margin: 0;
-  display: block;
-}
-
-.header {
-  height: 120px;
   width: 1440px;
-  background-color: blue;
-  margin-bottom: 10px;
-  float: left;
+  margin: 0 auto;
 }
 
-.imgrow {
-  width: 1240px;
-  height: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.imgpic {
-  width: 300px;
-  height: 100px;
-  margin-right: 20px;
-  float: left;
-  border-radius: 3px;
-  border-color: blue;
-}
-
-.txtrow {
-  width: 600px;
-  height: 400px;
-  margin-left: 500px;
-  align-items: center;
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
 }
 
 p {
@@ -47,8 +20,80 @@ p {
   font-style: normal;
   line-height: 1.5;
   margin: 0;
-  text-indent: 20px;
-  padding: 10px;
+}
+
+.header {
+  height: 120px;
+  width: 1440px;
+  background-color: #190073;
+  margin-bottom: 10px;
+  position: absolute;
+  text-align: center;
+  float: left;
+}
+
+.bg1 {
+  width: 1440px;
+  height: 700px;
+  margin: 50px auto;
+  float: left;
+}
+
+.bg222 {
+  width: 200px;
+  height: 400px;
+  background-color: #738bd0;
+  float: left;
+}
+
+.bg2 {
+  width: 1240px;
+  height: 400px;
+  background-color: #738bd0;
+  float: left;
+}
+
+.bg333 {
+  width: 200px;
+  height: 400px;
+  background-color: #cccccc;
+  float: left;
+}
+
+.bg3 {
+  width: 1240px;
+  height: 400px;
+  background-color: #cccccc;
+  float: left;
+}
+
+.bg444 {
+  width: 200px;
+  height: 400px;
+  background-color: white;
+  float: left;
+}
+
+.bg4 {
+  width: 1240px;
+  height: 400px;
+  background-color: white;
+  float: left;
+}
+
+.txtblock {
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+
+.imgpic {
+  width: 300px;
+  height: 200px;
+  margin-top: 100px;
+  margin-right: 60px;
+  margin-left: 100px;
+  float: left;
 }
 
 h1 {
@@ -67,7 +112,8 @@ h2 {
   font-size: 60px;
   font-weight: 600;
   font-style: normal;
-  color: darkblue;
+  color: blue;
+  padding-left: 100px;
 }
 
 h3 {
@@ -75,7 +121,7 @@ h3 {
   font-size: 60px;
   font-weight: 600;
   font-style: normal;
-  color: black;
+  color: whitesmoke;
   transform: rotate(-90deg);
 }
 
@@ -84,7 +130,7 @@ h4 {
   font-size: 60px;
   font-weight: 600;
   font-style: normal;
-  color: white;
+  color: #002579;
   transform: rotate(-90deg);
 }
 
@@ -93,83 +139,340 @@ h5 {
   font-size: 60px;
   font-weight: 600;
   font-style: normal;
-  color: blue;
+  color: #485aff;
   transform: rotate(-90deg);
 }
 
-.bg1 {
-  width: 1440px;
-  height: 400px;
-  background-color: darkblue;
-}
-
-.bg2 {
-  width: 1440px;
-  height: 400px;
-  background-color: white;
-}
-
-.bg3 {
-  width: 1440px;
-  height: 400px;
-  background-color: blue;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-@media only screen and (max-width: 1024px) {
-  #container  {
-    width: 60%;
+@media only screen and (max-width: 1439px) {
+  #container {
+    width: 1024px;
+    margin: 0 auto;
   }
+
   .header {
-    height: 100px;
+    height: 120px;
+    width: 1024px;
+    background-color: #190073;
+    margin-bottom: 10px;
+    position: absolute;
+    text-align: center;
+    float: left;
   }
+
+  .bg1 {
+    width: 1024px;
+    height: 700px;
+    margin: 50px auto;
+    float: left;
+  }
+
+  .bg222 {
+    width: 200px;
+    height: 400px;
+    background-color: #738bd0;
+    float: left;
+  }
+
+  .bg2 {
+    width: 840px;
+    height: 400px;
+    background-color: #738bd0;
+    float: left;
+  }
+
+  .bg333 {
+    width: 200px;
+    height: 400px;
+    background-color: #cccccc;
+    float: left;
+  }
+
+  .bg3 {
+    width: 840px;
+    height: 400px;
+    background-color: #cccccc;
+    float: left;
+  }
+
+  .bg444 {
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    float: left;
+  }
+
+  .bg4 {
+    width: 840px;
+    height: 400px;
+    background-color: white;
+    float: left;
+  }
+
+  .txtblock {
+    width: 300px;
+    height: 300px;
+    float: left;
+  }
+
+  .imgpic {
+    width: 300px;
+    height: 200px;
+    margin-top: 100px;
+    margin-right: 60px;
+    margin-left: 100px;
+    float: left;
+  }
+
   h1 {
-    font-size: 80px;
+    font-family: fira-sans, sans-serif;
+    font-size: 90px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 0.05;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: fira-sans, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    font-style: normal;
+    color: blue;
+    padding-left: 100px;
+  }
+
+  h3 {
+    font-family: fira-sans, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    font-style: normal;
+    color: whitesmoke;
+    transform: rotate(-90deg);
+  }
+
+  h4 {
+    font-family: fira-sans, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    font-style: normal;
+    color: #002579;
+    transform: rotate(-90deg);
+  }
+
+  h5 {
+    font-family: fira-sans, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    font-style: normal;
+    color: #485aff;
+    transform: rotate(-90deg);
   }
 }
 
-@media screen and (max-width: 768px) {
-  #container  {
-    width: 75%;
+@media screen and (max-width: 1023px) {
+  #container {
+    width: 768px;
+    margin: 0 auto;
   }
+
   .header {
-    height: 80px;
+    height: 120px;
+    width: 768px;
+    background-color: #190073;
+    margin-bottom: 10px;
+    position: absolute;
+    text-align: center;
+    float: left;
   }
-  h1 {
-    font-size: 72px;
-  }
+
   .bg1 {
     width: 768px;
-    height: 400px;
-    background-color: darkblue;
+    height: 700px;
+    margin: 50px auto;
+    float: left;
   }
 
   .bg2 {
     width: 768px;
     height: 400px;
-    background-color: white;
+    background-color: #738bd0;
+    float: left;
   }
 
   .bg3 {
     width: 768px;
     height: 400px;
-    background-color: blue;
+    background-color: #cccccc;
+    float: left;
+  }
+
+  .bg4 {
+    width: 768px;
+    height: 400px;
+    background-color: white;
+    float: left;
+  }
+
+  .txtblock {
+    width: 300px;
+    height: 300px;
+    float: left;
+  }
+
+  .imgpic {
+    width: 300px;
+    height: 200px;
+    margin-top: 100px;
+    margin-right: 60px;
+    margin-left: 100px;
+    float: left;
+  }
+
+  h1 {
+    font-family: fira-sans, sans-serif;
+    font-size: 90px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 0.05;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: fira-sans, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    font-style: normal;
+    color: blue;
+    padding-left: 100px;
+  }
+
+  h3 {
+    font-family: fira-sans, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    font-style: normal;
+    color: whitesmoke;
+  }
+
+  h4 {
+    font-family: fira-sans, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    font-style: normal;
+    color: #002579;
+  }
+
+  h5 {
+    font-family: fira-sans, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    font-style: normal;
+    color: #485aff;
   }
 }
 
-@media screen and (max-width: 320px) {
-  #container  {
-    width: 80%;
+@media screen and (max-width: 767px) {
+  #container {
+    width: 320px;
+    margin: 0 auto;
   }
+
   .header {
-    height: 80px;
+    height: 50px;
+    width: 320px;
+    background-color: #190073;
+    margin-bottom: 10px;
+    position: absolute;
+    text-align: center;
+    float: left;
   }
+
+  .bg1 {
+    width: 320px;
+    height: 700px;
+    margin: 50px auto;
+    float: left;
+  }
+
+  .bg2 {
+    width: 320px;
+    height: 600px;
+    background-color: #738bd0;
+    float: left;
+  }
+
+  .bg3 {
+    width: 320px;
+    height: 600px;
+    background-color: #cccccc;
+    float: left;
+  }
+
+  .bg4 {
+    width: 320px;
+    height: 600px;
+    background-color: white;
+    float: left;
+  }
+
+  .txtblock {
+    width: 300px;
+    height: 300px;
+    float: left;
+  }
+
+  .imgpic {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    float: left;
+  }
+
   h1 {
-    font-size: 60px;
+    font-family: fira-sans, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 0.05;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: fira-sans, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    font-style: normal;
+    color: blue;
+    padding-left: 100px;
+  }
+
+  h3 {
+    font-family: fira-sans, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    font-style: normal;
+    color: whitesmoke;
+  }
+
+  h4 {
+    font-family: fira-sans, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    font-style: normal;
+    color: #002579;
+  }
+
+  h5 {
+    font-family: fira-sans, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    font-style: normal;
+    color: #485aff;
   }
 }
