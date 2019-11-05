@@ -1,0 +1,289 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body {
+  background-color: #cccccc;
+  margin: 0;
+}
+#container {
+  width: 1440px;
+  margin: 0 auto;
+}
+.header {
+  width: 1440px;
+  padding: 0 0 25px;
+  background-color: black;
+  margin: 0;
+  position: relative;
+  text-align: center;
+}
+
+.boxed {
+  width: 868px;
+  margin: 50px auto;
+}
+.boxed2 {
+  width: 830px;
+  margin: 50px auto;
+}
+
+.boxed3, .boxed4, .boxed5 {
+  width: 375px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 65px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.square {
+  width: 1440px;
+  background-color: #808080;
+}
+.footer {
+  width: 1440px;
+  padding: 25px 0;
+  background-color: black;
+  margin: 0;
+  position: relative;
+  text-align: center;
+}
+h1,h3,h4,h6 {
+  text-align: center;
+  font-family: english,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  font-size: 90px;
+  color: white;
+}
+#titleL {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+#titleR {
+  position: absolute;
+  right : 55px;
+  bottom: 50px;
+}
+h6 {
+  font-size: 36px;
+  margin: 25px 0;
+}
+p {
+  font-family: source-serif-pro,serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+@media only screen and (max-width: 1439px) {
+  #container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  .header {
+    width: 1024px;
+    padding: 0 0 25px;
+    background-color: black;
+    margin: 0;
+    position: relative;
+    text-align: center;
+  }
+  .dwarf img {
+    width: 339px;
+  }
+  .dragon img {
+    width: 1024px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+
+  .boxed3, .boxed4, .boxed5 {
+    width: 892px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 65px;
+    margin-bottom: 20px;
+
+  }
+  .dice img {
+    float: left;
+  }
+  .content {
+    float: left;
+    width: 472px;
+    margin-left: 25px;
+    margin-top: -20px;
+  }
+  .mini img {
+    float: left;
+  }
+  .sheet img {
+    float: left;
+  }
+  .square {
+    width: 1024px;
+    background-color: #808080;
+  }
+  .square2 {
+    width: 1024px;
+    background-color: #cccccc;
+  }
+  .footer {
+    width: 1024px;
+    padding: 10px 0;
+    background-color: black;
+    margin: 0;
+    position: relative;
+    text-align: center;
+  }
+  .dicesword img {
+    width: 613px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  #container {
+    width: 768px;
+    margin: 0 auto;
+  }
+  .header {
+    width: 768px;
+    padding: 0 0 25px;
+    background-color: black;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    padding: 100px 0;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  #titleL {
+    position: absolute;
+    left: 220px;
+    top: 0px;
+  }
+  #titleR {
+    position: absolute;
+    right: 250px;
+    bottom: 0px;
+  }
+  .boxed,.boxed2 {
+    width: 630px;
+    margin: 50px auto;
+  }
+  .dragon img {
+    width: 768px;
+    overflow: hidden;
+
+  }
+  .boxed3, .boxed4, .boxed5 {
+    width: 631px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 65px;
+    margin-bottom: 20px;
+  }
+  .dice,.mini,.sheet {
+    float: left;
+    margin-left: 130px;
+  }
+  .square {
+    width: 768px;
+    background-color: #808080;
+  }
+  .content {
+    float: left;
+    width: 631px;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+  .footer {
+    width: 768px;
+    padding: 10px 0;
+    background-color: black;
+    margin: 0;
+    position: relative;
+    text-align: center;
+  }
+  .dicesword img {
+    width: 458px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #container {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .header {
+    width: 320px;
+    padding: 0 0 25px;
+    background-color: black;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    padding: 100px 0;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  #titleL {
+    position: absolute;
+    left: 50px;
+    top: 0px;
+  }
+  #titleR {
+    position: absolute;
+    right: 70px;
+    bottom: 0px;
+  }
+  .dwarf img {
+    width: 320px;
+  }
+  .boxed,.boxed2 {
+    width: 263px;
+    margin: 50px auto;
+  }
+  .dragon img {
+    width: 320px;
+    overflow: hidden;
+
+  }
+  .square {
+    width: 320px;
+    background-color: #808080;
+  }
+  .boxed3, .boxed4, .boxed5 {
+    width: 251px;
+    margin: 20px;
+
+  }
+  .dice img,.mini img,.sheet img {
+    width: 251px;
+    float: left;
+    margin-left: -115px;
+  }
+  .content {
+    float: left;
+    width: 251px;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+  .footer {
+    width: 320px;
+    padding: 10px 0;
+    background-color: black;
+    margin: 0;
+    position: relative;
+    text-align: center;
+  }
+  .dicesword img {
+    width: 191px;
+  }
+
+}

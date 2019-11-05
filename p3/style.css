@@ -1,0 +1,175 @@
+body {
+  background-color: whitesmoke;
+  margin: 0;
+  display: block;
+}
+
+#container {
+  width: 50%;
+  margin: 0;
+  display: block;
+}
+
+.header {
+  height: 120px;
+  width: 1440px;
+  background-color: blue;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.imgrow {
+  width: 1240px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgpic {
+  width: 300px;
+  height: 100px;
+  margin-right: 20px;
+  float: left;
+  border-radius: 3px;
+  border-color: blue;
+}
+
+.txtrow {
+  width: 600px;
+  height: 400px;
+  margin-left: 500px;
+  align-items: center;
+}
+
+p {
+  font-family: fira-sans, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  margin: 0;
+  text-indent: 20px;
+  padding: 10px;
+}
+
+h1 {
+  font-family: fira-sans, sans-serif;
+  font-size: 90px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 0.05;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+
+h2 {
+  font-family: fira-sans, sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  font-style: normal;
+  color: darkblue;
+}
+
+h3 {
+  font-family: fira-sans, sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  font-style: normal;
+  color: black;
+  transform: rotate(-90deg);
+}
+
+h4 {
+  font-family: fira-sans, sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+  transform: rotate(-90deg);
+}
+
+h5 {
+  font-family: fira-sans, sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  font-style: normal;
+  color: blue;
+  transform: rotate(-90deg);
+}
+
+.bg1 {
+  width: 1440px;
+  height: 400px;
+  background-color: darkblue;
+}
+
+.bg2 {
+  width: 1440px;
+  height: 400px;
+  background-color: white;
+}
+
+.bg3 {
+  width: 1440px;
+  height: 400px;
+  background-color: blue;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1024px) {
+  #container  {
+    width: 60%;
+  }
+  .header {
+    height: 100px;
+  }
+  h1 {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #container  {
+    width: 75%;
+  }
+  .header {
+    height: 80px;
+  }
+  h1 {
+    font-size: 72px;
+  }
+  .bg1 {
+    width: 768px;
+    height: 400px;
+    background-color: darkblue;
+  }
+
+  .bg2 {
+    width: 768px;
+    height: 400px;
+    background-color: white;
+  }
+
+  .bg3 {
+    width: 768px;
+    height: 400px;
+    background-color: blue;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #container  {
+    width: 80%;
+  }
+  .header {
+    height: 80px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+}
