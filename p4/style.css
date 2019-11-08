@@ -1,0 +1,37 @@
+#fhalf {
+  background-color: darkgreen;
+  width: 1024px;
+  height: 500px;
+  float: left;
+}
+
+#shalf {
+  background-color: lightgreen;
+  width: 1024px;
+  height: 300px;
+  float: left;
+}
+
+#container {
+  width: 1024px;
+}
+
+.title {
+  text-align: center;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 400px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+h3 {
+  text-transform: lowercase;
+}

@@ -1,0 +1,68 @@
+body {
+  margin: auto;
+}
+
+#container {
+  margin: 50px auto;
+  width: 1000px;
+}
+
+.header {
+  width: 500px;
+  height: 500px;
+  background-color: lightpink;
+  float: left;
+}
+
+.subject {
+  padding: auto;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.content1, .content2, .content3, .content4, .content5 {
+  width: 500px;
+  height: 50px;
+  float: left;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.add1, .add2, .add3, .add4, .add5 {
+  width: 500px;
+  height: 50px;
+  float: left;
+  background-color: white;
+  text-align: center;
+  display: none;
+}
+
+span:add1 {
+  display: block;
+}
+
+span:add2 {
+  display: block;
+}
+
+span:add3 {
+  display: block;
+}
+
+span:add4 {
+  display: block;
+}
+
+span:add5 {
+  display: block;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: arial;
+}
+
+h1:hover {
+  color: pink;
+  transition: 0.5s;
+}

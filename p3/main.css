@@ -1,16 +1,12 @@
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 body {
   background-color: #cccccc;
-  margin: 0;
+  margin: auto;
 }
 #container {
   width: 1440px;
   margin: 0 auto;
 }
+
 .header {
   width: 1440px;
   padding: 0 0 25px;
