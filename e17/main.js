@@ -4,6 +4,7 @@ $(document).ready(function(){
 $("p").click(function() {
   $(this).hide();
 });
+
 $( ".content1" )
   .filter( ":odd" )
     .hide()
