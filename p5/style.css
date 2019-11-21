@@ -1,0 +1,27 @@
+body {
+  margin: 50px auto;
+  background-color: whitesmoke;
+}
+
+#container {
+  width: 1000px;
+  height: 1000px;
+  margin: 50px auto;
+}
+
+.bigsquare {
+  width: 1030px;
+  height: 1030px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  padding: 5px;
+}
+
+.tile {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-color: black;
+  float: left;
+}
