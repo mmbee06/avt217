@@ -3,7 +3,7 @@ $(document).ready(function() {
 });
 
 function colorGuess() {
-	var wordArray = ["Yellow","YellowGreen"];
+	var wordArray = [""];
 	var randomNumber = Math.floor(Math.random() * wordArray.length);
 	var stripped = wordArray[randomNumber].toLowerCase();
 	console.log(wordArray[randomNumber]);
