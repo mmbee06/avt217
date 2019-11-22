@@ -4,7 +4,7 @@
 
 body {
   background-color: white;
-  margin: 50px auto;
+  margin: 0;
 }
 
 html {
@@ -12,7 +12,8 @@ html {
 }
 
 #container {
-
+  width: 50vw;
+	margin: 0 auto;
 }
 
 #submit {
