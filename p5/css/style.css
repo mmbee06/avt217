@@ -1,0 +1,29 @@
+body {
+  margin: 50px auto;
+  background-color: lightpink;
+}
+
+#container {
+  width: 700px;
+  height: 700px;
+  margin: 50px auto;
+}
+
+.bigsquare {
+  width: 620px;
+  height: 620px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  padding: 5px;
+}
+
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-color: black;
+  float: left;
+  background-color: white;
+  transition: background-color 0.25s ease;
+}
