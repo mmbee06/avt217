@@ -1,0 +1,28 @@
+html, body {
+  margin: 0 auto;
+  background-color: whitesmoke;
+}
+
+img {
+  width: 100vw;
+}
+
+#container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1439px) {
+  img {
+    width: 1024px;
+  }
+
+@media screen and (max-width: 1023px) {
+  img {
+    width: 768px;
+  }
+
+@media screen and (max-width: 767px) {
+  img {
+    width: 500px;
+  }
